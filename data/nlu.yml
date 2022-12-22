@@ -93,7 +93,9 @@ nlu:
 
 - intent: diabetes_meaning
   examples: |
-    -what is diabetes?
+    -what is [diabetes](category)?
+    -what is [diabetes type 1](category)?
+    -what is [diabetes type 2](category)?
     -define diabetes?
     -meaning of diabetes?
     -can you tell more about diabetes?
@@ -286,5 +288,12 @@ nlu:
    -What is the amount of calories are people with diabetes supposed to consume?
    -Can cholestrol cause diabetes?
    
- -lookup:  lookup: category
+-  synonym: diabetes
+   examples:  |
+    -diabetes mellitus
+
+-   synonym: diabetes type 1
+    examples:  |
+     -diabetes type 1
+
  
