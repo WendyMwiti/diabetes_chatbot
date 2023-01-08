@@ -1,30 +1,52 @@
 version: "3.1"
 
 stories:
-
-- story: happy path
+- story: greet and tell meaning
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
+  - action: utter_greetings
+  - intent: diabetes_meaning
+  - action: utter_diabetes_meaning
+ 
+- story: greet and tell symptoms
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
+  - action: utter_greetings
+  - intent: symptoms_of_diabetes
+  - action: utter_symptoms
+- story: diagnosis_treatment_management
   steps:
   - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - action: utter_greetings
+  - intent: diabetes_diagnosis
+  - action: utter_diabetes_test
+  - intent: diabetes_treatment
+  - action: utter_treating_for_diabetes
+  - intent: diabetes_management
+  - action: utter_diabetes_management
+  
+- story: risk_prevention_diet
+  steps:
+  - intent: diabetes_risks
+  - action: utter_risks
+  - intent: diabetes_prevention
+  - action: utter_prevention_for_diabetes
+  - intent: diabetes_diet
+  - action: utter_diabetes_diet
+  
+- story: types_contributors_prevention
+  steps:
+  - intent: diabetes_types
+  - action: utter_diabetes_types
+  - intent: diabetes_contributing_factors
+  - action: utter_contributing_factors
+  - intent: diabetes_prevention
+  - action: utter_prevention_for_diabetes
+  
+- story: meaning_types_management
+  steps:
+  - intent: diabetes_meaning
+  - action: utter_diabetes_meaning
+  - intent: diabetes_types
+  - action: utter_diabetes_types
+  

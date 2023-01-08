@@ -1,34 +1,44 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+- greet
+- diabetes_meaning
+- symptoms_of_diabetes
+- diabetes_risks
+- diabetes_contributing_factors
+- diabetes_types
+- diabetes_diagnosis
+- diabetes_treatment
+- diabetes_prevention
+- diabetes_management
+- diabetes_diet
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+ utter_greetings:
+ - text: "Welcome.I am a diabetes conversational bot.Ask me anything about diabetes"
+ utter_diabetes_meaning:
+ - text: "a disease in which the body’s ability to produce or respond to the hormone insulin is impaired, resulting in abnormal metabolism of carbohydrates and elevated levels of glucose in the blood."
+ utter_symptoms:
+ - text: "Are very thirsty.Feeling tired."
+ utter_risks:
+ - text: "Diabetes is a major cause of blindness, kidney failure, heart attacks, stroke and lower limb amputation"
+ utter_contributing_factors:
+ - text: "Having overweight/obesity. Having high bloodpressure.Having low HDL cholesterol (the “good” cholesterol) and high triglyceride          level"
+ utter_diabetes_types:
+ - text: "There are three main types of diabetes that is type 1, type 2, and gestational diabetes (diabetes while pregnant)"
+ utter_default:
+    - text: "Sorry, I didn't get that, can you rephrase?"
+ utter_diabetes_test:
+ - text: "The A1C test—also known as the hemoglobin A1C or HbA1c test—is a simple blood test that measures your average blood sugar levels            over the past 3 months"
+ utter_treating_for_diabetes:
+ - text: "insulin therapy"
+ utter_prevention_for_diabetes:
+ - text:  "losing a small amount of weight and getting more physically active"
+ utter_diabetes_management:
+ - text: "Keeping your blood sugar levels within the range recommended by your doctor can be challenging. That's because many things make              your blood sugar levels change, sometimes unexpectedly. Following are some factors that can affect your blood sugar levels."
+ utter_diabetes_diet:
+ - text: "Whole grains,Water and unsweetened beverages,lean protein,"
+ 
 session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+ session_expiration_time: 60.0
+ carry_over_slots_to_new_session: true 
