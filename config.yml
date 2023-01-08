@@ -13,6 +13,7 @@ pipeline:
    - name: SpacyNLP
      model: en_core_web_md
    - name: SpacyTokenizer
+   - name: vector.TfIdfFeaturizer
    - name: SpacyFeaturizer
    - name: RegexFeaturizer
    - name: LexicalSyntacticFeaturizer
