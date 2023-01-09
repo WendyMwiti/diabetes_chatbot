@@ -4,7 +4,7 @@ intents:
 - greet
 - diabetes_meaning
 - symptoms_of_diabetes
-- diabetes_risks
+- diabetes_complications
 - diabetes_contributing_factors
 - diabetes_types
 - diabetes_diagnosis
@@ -16,28 +16,39 @@ intents:
 responses:
  utter_greetings:
  - text: "Welcome.I am a diabetes conversational bot.Ask me anything about diabetes"
+
  utter_diabetes_meaning:
- - text: "a disease in which the body’s ability to produce or respond to the hormone insulin is impaired, resulting in abnormal metabolism of carbohydrates and elevated levels of glucose in the blood."
- utter_symptoms:
- - text: "Are very thirsty.Feeling tired."
- utter_risks:
- - text: "Diabetes is a major cause of blindness, kidney failure, heart attacks, stroke and lower limb amputation"
+ - text: "Diabetes is a chronic condition that occurs when the body is unable to properly regulate blood sugar (glucose) levels. In people with diabetes, the body either does not produce enough insulin (a hormone that helps regulate blood sugar) or does not properly use the insulin it does produce. As a result, glucose builds up in the blood, leading to high blood sugar level"
+ 
+ utter_diabetes_symptoms:
+ - text: "Some common symptoms of diabetes include;Frequent urination, Excessive thirst, Hunger pangs, Fatigue, Blurred vision, Slow healing of cuts and bruises,Numbness or tingling in the hands and feet"
+
+ utter_complications:
+ - text: "If diabetes is not well-controlled, it can lead to a number of serious complications, including: Heart disease: People with diabetes are at an increased risk of heart attack and stroke. Nerve damage: High blood sugar levels can cause nerve damage, leading to numbness, tingling, and pain in the hands and feet.  Eye damage: Diabetes can cause damage to the blood vessels in the retina  leading to vision loss and even blindness. Kidney damage: High blood sugar levels can damage the small blood vessels in the kidneys, leading to kidney disease. Foot problems: Nerve damage and poor circulation can increase the risk of foot problems, such as infections and sores that do not heal"
+
  utter_contributing_factors:
- - text: "Having overweight/obesity. Having high bloodpressure.Having low HDL cholesterol (the “good” cholesterol) and high triglyceride          level"
+ - text: "Some of the main risk factors for diabetes are: Family history: Your risk of developing diabetes is higher if you have a parent or sibling with the condition. Age: Your risk of developing diabetes increases as you get older. Ethnicity: People of certain ethnicities, such as African Americans, Hispanics, Native Americans, and Asian Americans, are at an increased risk of developing diabetes. Being overweight or obese: Having excess body fat, especially around the waist, can increase your risk of developing diabetes. Inactive lifestyle: People who are inactive or who do not get enough physical activity are at a higher risk of developing diabetes. High blood pressure: People with high blood pressure are at an increased risk of developing diabetes. Abnormal cholesterol levels: High levels of LDL (bad) cholesterol and low levels of HDL (good) cholesterol can increase your risk of diabetes. Pre-diabetes: If you have pre-diabetes (elevated blood sugar levels that are not high enough to be diagnosed as diabetes), you are at an increased risk of developing type 2 diabetes"
+
  utter_diabetes_types:
- - text: "There are three main types of diabetes that is type 1, type 2, and gestational diabetes (diabetes while pregnant)"
+ - text: " Diabetes is also called diabetes mellitus. The three main types of diabetes are:Type 1 diabetes: This form of diabetes is caused by an autoimmune disorder that destroys the cells in the pancreas that produce insulin. As a result, people with type 1 diabetes need to take insulin injections to survive. This form of diabetes usually develops in childhood or adolescence, but it can occur at any age.Type 2 diabetes: This is the most common form of diabetes, and it is caused by the body's cells becoming resistant to insulin. Gestational diabetes: This form of diabetes occurs during pregnancy and usually goes away after the baby is born. It occurs when the hormones produced during pregnancy interfere with the action of insulin in the body, leading to high blood sugar levels"
+
  utter_default:
-    - text: "Sorry, I didn't get that, can you rephrase?"
- utter_diabetes_test:
- - text: "The A1C test—also known as the hemoglobin A1C or HbA1c test—is a simple blood test that measures your average blood sugar levels            over the past 3 months"
- utter_treating_for_diabetes:
- - text: "insulin therapy"
- utter_prevention_for_diabetes:
- - text:  "losing a small amount of weight and getting more physically active"
- utter_diabetes_management:
- - text: "Keeping your blood sugar levels within the range recommended by your doctor can be challenging. That's because many things make              your blood sugar levels change, sometimes unexpectedly. Following are some factors that can affect your blood sugar levels."
- utter_diabetes_diet:
- - text: "Whole grains,Water and unsweetened beverages,lean protein,"
+ - text: "Sorry, I didn't get that, can you rephrase?"
+  
+utter_diabetes_test:
+ - text: "There are several tests that can be used to diagnose diabetes and to monitor blood sugar levels in people with the condition including the Fasting blood sugar test: This test measures the level of glucose in the blood after an overnight fast. A blood sugar level of 126 milligrams per deciliter (mg/dL) or higher on two separate occasions is usually considered to be diagnostic of diabetes. Oral glucose tolerance test: This test measures the body's ability to process glucose. It involves drinking a sugary solution and having blood sugar levels measured at regular intervals. A blood sugar level of 200 mg/dL or higher two hours after the start of the test is usually considered to be a diagnostic of diabetes. A1C test: This test measures the average blood sugar level over the past two to three months. An A1C level of 6.5% or higher is usually considered to be diagnostic of diabetes. Random blood sugar test: This test measures the level of glucose in the blood at any given time. A blood sugar level of 200 mg/dL or higher is usually considered to be diagnostic of diabetes. Continuous glucose monitoring: This test uses a small sensor placed under the skin to measure blood sugar levels continuously throughout the day."
+
+utter_treating_for_diabetes:
+ - text: "The treatment of diabetes involves a combination of lifestyle changes and medications to help manage blood sugar levels. The specific treatment plan will depend on the type of diabetes and the individual patient. This includes Lifestyle changes: Making healthy lifestyle choices, such as eating a healthy diet and getting regular physical activity. Medications: People with diabetes may need to take medications to help manage their blood sugar levels. These may include insulin injections, oral medications that help the body use insulin more effectively, or medications that slow the absorption of glucose from the intestine. Insulin therapy: People with type 1 diabetes and some people with type 2 diabetes may need to take insulin injections to help regulate blood sugar levels. Insulin is a hormone that helps the body use glucose for energy. It is important for people with diabetes to work closely with their healthcare team to develop an effective treatment plan that meets their individual needs."
+
+utter_diabetes_prevention:
+ - text:  "There are several steps that can be taken to reduce the risk of developing diabetes:Maintain a healthy weight: Get regular physical activity: Regular physical activity can help improve insulin sensitivity and lower blood sugar levels. Aim for at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week. Eat a healthy diet: A diet that is high in fruits, vegetables, whole grains, and lean meat. Limit alcohol consumption: Drinking too much alcohol can increase your risk of developing diabetes. If you drink alcohol, do so in moderation. Get regular check-ups: Regular medical check-ups can help detect diabetes at an early stage when it is easier to treat and prevent complications."
+
+utter_diabetes_management:
+ - text: "Managing diabetes involves a combination of lifestyle changes and medical treatment to help keep blood sugar levels under control and prevent complications. Some steps that can be taken to manage diabetes include: Monitoring blood sugar levels. Eating a healthy diet: A diet that is high in fruits, vegetables, whole grains, and lean proteins can help manage blood sugar levels. Avoid foods that are high in added sugars, saturated and trans fats, and sodium. Getting regular physical activity: Regular physical activity can help improve insulin sensitivity and lower blood sugar levels. Aim for at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week. Taking medications as prescribed: .Regular medical check-ups and blood tests can help detect and prevent complications of diabetes."
+
+utter_diabetes_diet:
+ - text: "Some general guidelines for a healthy diabetes diet include: Choose whole grains, such as whole wheat, oats, and quinoa, instead of refined grains, such as white bread and pasta. Limit added sugars: Eat a variety of fruits and vegetables: Fruits and vegetables are high in fiber, vitamins, and minerals which boost immunity.  Choose lean proteins: Choose lean proteins, such as chicken, turkey, fish, beans, and tofu, instead of high-fat meats. Limit saturated and trans fats: Avoid foods that are high in saturated and trans fats, such as fried foods and fast food, as these can increase the risk of heart disease. Drink plenty of water"
  
 session_config:
  session_expiration_time: 60.0

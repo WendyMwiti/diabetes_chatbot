@@ -27,10 +27,10 @@ stories:
   
 - story: risk_prevention_diet
   steps:
-  - intent: diabetes_risks
-  - action: utter_risks
+  - intent: diabetes_complications
+  - action:  utter_complications
   - intent: diabetes_prevention
-  - action: utter_prevention_for_diabetes
+  - action: utter_diabetes_prevention
   - intent: diabetes_diet
   - action: utter_diabetes_diet
   
@@ -41,7 +41,7 @@ stories:
   - intent: diabetes_contributing_factors
   - action: utter_contributing_factors
   - intent: diabetes_prevention
-  - action: utter_prevention_for_diabetes
+  - action: utter_diabetes_prevention
   
 - story: meaning_types_management
   steps:

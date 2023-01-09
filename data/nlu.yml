@@ -20,9 +20,9 @@ nlu:
 
 - intent: diabetes_meaning
   examples: |
-    -what is [diabetes](category)?
-    -what is [diabetes type 1](category)?
-    -what is [diabetes type 2](category)?
+    -what is diabetes category?
+    -what is diabetes type 1 category?
+    -what is diabetes type 2 category?
     -define diabetes?
     -meaning of diabetes?
     -can you tell more about diabetes?
@@ -33,7 +33,7 @@ nlu:
     -I've heard of diabetes, but I'm not sure exactly what it is. Can you help me understand?
     -I'm interested in learning more about diabetes. Can you give me some information?
 
-- intent:  symptoms_of_diabetes
+- intent:  diabetes_symptoms
   examples: |
     -What are the symptoms of diabetes?
     -How can I tell that I have diabetes?
@@ -50,7 +50,7 @@ nlu:
     -Is frequent hunger a symptom of diabetes?
     -I recently lost a lot of weight. Does that mean I have diabetes?  
 
-- intent:  diabetes_risks
+- intent:  diabetes_complications
   examples: |
     -What are the potential risks of having diabetes?
     -What are the risks associated with diabetes?
@@ -96,6 +96,7 @@ nlu:
     -What is the differences between the various diabetes types?
     -How can I know what type of diabetes I'm suffering from?
     -Diabetes types?
+    -What is diabetes mellitus?
     -Can you tell me more about the different types of diabetes?
     -I've heard of type 1 and type 2 diabetes, but are there other types?
     -I'm trying to learn more about the various types of diabetes. Can you provide some information?
