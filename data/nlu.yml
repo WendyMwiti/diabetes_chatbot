@@ -230,6 +230,8 @@ nlu:
    -What is the amount of calories are people with diabetes supposed to consume?
    -Can cholestrol cause diabetes?
    -WHO reccomendations on diabetes diet?
+   -What are the nutritional requirements of people with diabetes?
+   -What nutrition should people with diabetes follow?
   
 - intent: blood_glucose_levels
   examples:  |
@@ -317,7 +319,7 @@ nlu:
    - What is the proper protocol for a missed insulin dose?
    - Is there a specific course of action I should take if I skip an insulin injection?
 
-- intent: pregnancy_risk
+- intent: diabetes_pregnancy_risk
   examples: |
    - What are the risks of having diabetes during pregnancy?
    - What are the potential complications of gestational diabetes?

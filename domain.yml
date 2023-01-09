@@ -12,6 +12,18 @@ intents:
 - diabetes_prevention
 - diabetes_management
 - diabetes_diet
+- blood_glucose_levels
+- prediabetes
+- insulin_meaning
+- types_insulin
+- use_of_insulin
+- side_effects_of_insulin
+- miss_dose 
+- diabetes_pregnancy_risk
+- pregnancy_diet_exercise
+- delivery&post-pregnancy_care
+- managing_during_pregnancy
+
 
 responses:
  utter_greetings:
@@ -41,7 +53,7 @@ responses:
  - text: "Medical interventions that may be used to treat diabetes include: insulin injections: People with type 1 diabetes and some people with type 2 diabetes may need to take insulin injections to help regulate their blood sugar levels. Oral medications: there are several oral medications that can be taken to help control blood sugar levels in people with type 2 diabetes. Continuous glucose monitoring: this involves wearing a device that measures blood sugar levels continuously throughout the day and night. Insulin pumps: These devices deliver a continuous supply of insulin through a small tube that is inserted under the skin"
 
  utter_prevention_for_diabetes:
- - text: "There are several things that you can do to reduce your risk of developing diabetes or prevent progression to diabetes if one has prediabetes: maintain a healthy weight, excess weight especially around the waist, increases the risk of developing type 2 diabetes. Exercise regularly, physical activity can help to regulate blood sugar levels and improve insulin sensitivity. Aim for at least 150 minutes of moderate-intensity exercise per week. Eat a healthy diet; a diet that includes a variety vegetables, fruits, whole grains, and lean proteins can help to regulate blood sugar levels. Avoid sugary drinks and snacks and limit your intake of refined carbohydrates. Don't smoke as it increases the risk of developing diabetes and can worsen the complications of the disease.Get regular medical check-ups; if you are at high risk of developing diabetes, your doctor may recommend that you have your blood sugar levels checked regularly. All this is is necessary because once you develop diabetes it can not be cured but only managed "
+ - text: "There are several things that you can do to reduce your risk of developing diabetes or prevent progression to diabetes if one has prediabetes: maintain a healthy weight, excess weight especially around the waist, increases the risk of developing type 2 diabetes. Exercise regularly, physical activity can help to regulate blood sugar levels and improve insulin sensitivity. Aim for at least 150 minutes of moderate-intensity exercise per week. Eat a healthy diet; a diet that includes a variety vegetables, fruits, whole grains, and lean proteins can help to regulate blood sugar levels. Avoid sugary drinks and snacks and limit your intake of refined carbohydrates. Don't smoke as it increases the risk of developing diabetes and can worsen the complications of the disease.Get regular medical check-ups; if you are at high risk of developing diabetes, your doctor may recommend that you have your blood sugar levels checked regularly. All this is is necessary because once you develop diabetes it can not be cured but only managed"
 
  utter_diabetes_management:
  - text: "Managing diabetes involves a combination of lifestyle changes and medical interventions.To manage your diabetes, you should: take your medications as prescribed; if you are prescribed insulin or oral medications, be sure to take them as directed by your healthcare team. Test your blood sugar regularly as recommended by your healthcare team. Exercise regularly. Monitor your blood pressure; high blood pressure can increase the risk of complications in people with diabetes. Diabetes can cause nerve damage and poor circulation, which can increase the risk of foot problems. Take care of your feet by washing them daily, wearing comfortable shoes, and checking your feet regularly for cuts, blisters, and other problems"
@@ -55,34 +67,34 @@ responses:
  utter_prediabetes:
  - text: "Prediabetes is a condition in which a person's blood sugar levels are higher than normal, but not high enough to be classified as type 2 diabetes. It is important to note that prediabetes is not the same as type 2 diabetes, but it does increase the risk of developing it. However, the good news is that prediabetes can be treated and even prevented through lifestyle changes such as eating a healthy diet that includes a variety of vegetables, fruits, whole grains, lean protein sources, and healthy fats, and getting regular physical exercise and losing weight. It is also important to limit or avoid sugary drinks and foods, and to be mindful of portion sizes. While certain medications may also be used to treat prediabetes, lifestyle changes are the most effective way to manage the condition. Signs of prediabetes include increased thirst, frequent urination, and fatigue, but it is important to note that these symptoms can also be caused by other conditions, so it is important to seek medical advice for a proper diagnosis. The length of time it takes to treat prediabetes can vary depending on the individual and the severity of their condition, but making lifestyle changes and working closely with a healthcare provider to develop an appropriate treatment plan can help prevent or delay the progression to type 2 diabetes."
 
-utter_insulin_meaning:
-- text: "an animal-derived or synthetic form of insulin used to treat diabetes"
+ utter_diabetes_insulin_meaning:
+  - text: "an animal-derived or synthetic form of insulin used to treat diabetes"
 
-utter_types_insulin:
-- text: "There are several different types of insulin available, including rapid-acting, short-acting, intermediate-acting, and long-acting. Your doctor will determine the best type for you based on your needs"
+ utter_types_insulin:
+  - text: "There are several different types of insulin available, including rapid-acting, short-acting, intermediate-acting, and long-acting. Your doctor will determine the best type for you based on your needs"
 
-utter_use_of_insulin:
-- text: "Insulin is usually injected using a needle and syringe, or with an insulin pen. Your healthcare provider will show you how to properly inject insulin. It's important to follow their instructions and to be consistent with your insulin doses."
+ utter_use_of_insulin:
+ - text: "Insulin is usually injected using a needle and syringe, or with an insulin pen. Your healthcare provider will show you how to properly inject insulin. It's important to follow their instructions and to be consistent with your insulin doses."
 
-utter_side_effects:
-- text: "Some common side effects of insulin include low blood sugar (hypoglycemia), weight gain, and skin irritation at the injection site. Less common side effects may include allergic reactions, low potassium levels, and changes in blood pressure. It's important to talk to your healthcare provider about any side effects you experience while taking insulin."
+ utter_side_effects:
+ - text: "Some common side effects of insulin include low blood sugar (hypoglycemia), weight gain, and skin irritation at the injection site. Less common side effects may include allergic reactions, low potassium levels, and changes in blood pressure. It's important to talk to your healthcare provider about any side effects you experience while taking insulin."
 
-utter_missing_dose_advice:
-- text: "f you miss a dose of insulin, your blood sugar levels may become too high, which can lead to potential complications. It's important to contact your healthcare provider as soon as possible for guidance on what to do next."
+ utter_missing_dose_advice:
+ - text: "f you miss a dose of insulin, your blood sugar levels may become too high, which can lead to potential complications. It's important to contact your healthcare provider as soon as possible for guidance on what to do next."
 
-utter_pregnancy_risk:
-- text: " Pregnant women with diabetes are at an increased risk for complications such as high blood sugar levels, preterm labor, and high blood pressure. It's important to work closely with your healthcare provider to manage your diabetes and reduce the risk of complications"
+ utter_diabetes_pregnancy_risk:
+ - text: " Pregnant women with diabetes are at an increased risk for complications such as high blood sugar levels, preterm labor, and high blood pressure. It's important to work closely with your healthcare provider to manage your diabetes and reduce the risk of complications"
 
-utter_pregnancy_diet_exercise:
-- text: "To ensure the best outcome for both you and your baby during pregnancy, it's important to eat a healthy, balanced diet when you have diabetes. This may include a variety of foods from all food groups, such as whole grains, fruits and vegetables, protein sources, and healthy fats. A registered dietitian or a healthcare provider can help you create a meal plan that meets your individual needs and goals.When pregnant and living with diabetes, it's important to stay active and engage in regular physical activity. This can help you manage your blood sugar levels, maintain a healthy weight, and improve your overall well-being. It's important to speak with your healthcare provider about what types of exercise are safe for you during pregnancy. Some options may include walking, swimming, and low-impact aerobics."
+ utter_pregnancy_diet_exercise:
+ - text: "To ensure the best outcome for both you and your baby during pregnancy, it's important to eat a healthy, balanced diet when you have diabetes. This may include a variety of foods from all food groups, such as whole grains, fruits and vegetables, protein sources, and healthy fats. A registered dietitian or a healthcare provider can help you create a meal plan that meets your individual needs and goals.When pregnant and living with diabetes, it's important to stay active and engage in regular physical activity. This can help you manage your blood sugar levels, maintain a healthy weight, and improve your overall well-being. It's important to speak with your healthcare provider about what types of exercise are safe for you during pregnancy. Some options may include walking, swimming, and low-impact aerobics."
 
-utter_delivery&post_pregnancy_care:
-- text: "Individuals with diabetes may need to carefully manage their blood sugar levels and monitor for complications during delivery and post-pregnancy care. Your healthcare team will also provide support with breastfeeding and nutrition. They will work with you to create a plan that meets your specific needs and ensures the best possible outcome for you and your baby."
+ utter_delivery&post_pregnancy_care:
+ - text: "Individuals with diabetes may need to carefully manage their blood sugar levels and monitor for complications during delivery and post-pregnancy care. Your healthcare team will also provide support with breastfeeding and nutrition. They will work with you to create a plan that meets your specific needs and ensures the best possible outcome for you and your baby."
 
-utter_managing_pregnancy:
-- text: "To manage your diabetes during pregnancy, it's important to work closely with your healthcare team to create a treatment plan that includes a healthy diet, regular physical activity, and insulin therapy if needed. Regular blood sugar monitoring and attending all prenatal appointments will also help ensure the best outcome for both you and your baby."
+ utter_managing_pregnancy:
+ - text: "To manage your diabetes during pregnancy, it's important to work closely with your healthcare team to create a treatment plan that includes a healthy diet, regular physical activity, and insulin therapy if needed. Regular blood sugar monitoring and attending all prenatal appointments will also help ensure the best outcome for both you and your baby."
 
  
-session_config:
- session_expiration_time: 60.0
- carry_over_slots_to_new_session: true 
+ session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

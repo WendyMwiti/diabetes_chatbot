@@ -50,3 +50,69 @@ stories:
   - intent: diabetes_types
   - action: utter_diabetes_types
   
+- story: blood_sugar_regulation_diabetes
+  steps:
+  - intent: diabetes_diagnosis
+  - action: utter_diabetes_diagnosis
+  - intent: blood_glucose_levels
+  - action:  utter_blood_glucose_levels
+  
+- story: Insulin_management_diabetes
+  steps:
+  - intent: insulin_meaning
+  - action: utter_insulinmeaning_diabetes
+  - intent: use_of_insulin
+  - action: utter_use_of_insulin
+  - intent: types_insulin
+  - action: utter_types_insulin
+  - intent: side_effects_of_insulin
+  - action: utter_side_effects
+  
+- story: prediabetes_and_diabetes
+  steps:
+  - intent: prediabetes
+  - action: utter_prediabetes
+  - intent: symptoms_of_diabetes
+  - action: utter_symptoms
+  - intent: diabetes_diet
+  - action: utter_diabetes_diet
+
+- story: pregnancy_and_diabetes
+  steps:
+  - intent: diabetes_pregnancy_risk
+  - action: utter_diabetes_pregnancy_risk
+  - intent: managing_during_pregnancy
+  - action: utter_managing_pregnancy
+  - intent: pregnancy_diet_exercise
+  - action: utter_pregnancy_diet_exercise
+
+- story: insulin_side_effects_miss_dose
+  steps:
+  - intent: diabetes_meaning
+  - action: utter_diabetes_meaning
+  - intent: insulin_meaning
+  - action: utter_insulinmeaning_diabetes
+  - intent: types_insulin
+  - action: utter_types_insulin
+  - intent: use_of_insulin
+  - action: utter_use_of_insulin
+  - intent: side_effects_of_insulin
+  - action: utter_side_effects
+  - intent: miss_dose
+  - action: utter_missing_dose_advice
+
+- story: diabetes_pregnancy_diet_exercise
+  steps:
+  - intent: diabetes_pregnancy_risk
+  - action: utter_diabetes_pregnancy_risk
+  - intent: pregnancy_diet_exercise
+  - action: utter_pregnancy_diet_exercise
+
+- story:  post_pregnancy_care
+  steps:
+  - intent: pregnancy_diet_exercise
+  - action: utter_pregnancy_diet_exercise
+  - intent: delivery&post-pregnancy_care
+  - action: utter_delivery&post_pregnancy_care
+  - intent: managing_during_pregnancy
+  - action: utter_managing_pregnancy
