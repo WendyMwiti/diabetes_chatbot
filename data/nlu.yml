@@ -69,6 +69,9 @@ nlu:
     -What are the longterm health risks associated with diabetes?
     -How does high blood sugars affect an individual overtime?
     -What can happen if my diabetes is not properly treated or controlled?
+    -What is the link between diabetes and heart disease?
+    -What is the link between diabetes and kidney problems?
+    -What is the link between diabetes and eye problems
 
 - intent:  diabetes_contributing_factors
   examples: |
@@ -109,6 +112,7 @@ nlu:
     -I'm not sure I understand the distinction between the different types of diabetes. Can you explain it to me?
     -What are the various forms of diabetes?
     -Forms of diabetes?
+    -What is the nutrition for diabetes?
 
 - intent:  diabetes_diagnosis
   examples: |
@@ -130,6 +134,8 @@ nlu:
     -How can you tell if you have diabetes without a test?
     -What tests are used to diagnose diabetes?
     -What tests are done to check for diabetes?
+    -How is diabetes diagnosed?
+    -What are WHO procedures on diabetes diagnosis?
 
 - intent:  diabetes_treatment
   examples: |
@@ -151,6 +157,7 @@ nlu:
     -How long does it take to treat diabetes?
     -Does changing diet alone treat diabetes?
     -Does exercising alone treat diabetes?
+    -What are WHO reccommendations on diabetes_treatment?
 
 - intent:  diabetes_prevention
   examples: |
@@ -200,6 +207,7 @@ nlu:
     -How can I manage diabetes during times of stress?
     -How can I track and interpret my blood sugar and other test results over time to better manage my diabetes?
     -How do I manage diabetes during pregnancy? 
+    -WHO reccommendations on diabetes_management? 
 
 - intent:  diabetes_diet
   examples: |
@@ -221,7 +229,51 @@ nlu:
    -Can people with diabetes take alcohol?
    -What is the amount of calories are people with diabetes supposed to consume?
    -Can cholestrol cause diabetes?
-   
+   -WHO reccomendations on diabetes diet?
+  
+- intent: blood_glucose_levels
+  examples:  |
+   - What is a normal blood glucose level?
+   - What can cause blood glucose levels to fluctuate?
+   - How can I stabilize my blood glucose levels?
+   - Can stress affect my blood glucose levels?
+   - What is hypoglycemia and how do I treat it? 
+   - What is hyperglycemia and how do I treat it?
+   - How often should I check my blood glucose levels?
+   - How do I interpret my blood glucose levels?
+   - What should I do if my blood glucose levels are consistently high or low?
+   - Can certain medications or supplements affect my blood glucose levels?
+   - What is the relationship between blood glucose levels and diabetes?
+   - How does diabetes affect blood glucose levels?
+   - What is the role of insulin in regulating blood glucose levels in people with diabetes?
+   - How do I manage my blood glucose levels if I have type 1 diabetes?
+   - How do I manage my blood glucose levels if I have type 2 diabetes?
+   - Can blood glucose levels be controlled through diet and exercise alone, or do I need medication?
+   - How do I know if my blood glucose levels are too high or too low?
+   - How do I adjust my insulin dosage based on my blood glucose levels?
+   - Can low blood glucose levels (hypoglycemia) be dangerous for people with diabetes?
+   - Can high blood glucose levels (hyperglycemia) lead to long-term complications if not properly managed?
+
+- intent: prediabetes
+  examples:  |
+   - What is prediabetes?
+   - Is prediabetes same as type 2 diabetes?
+   - Can prediabetes be treated?
+   - Can prediabetes be prevented by only diet?
+   - What diet can be used to help treat prediabetes?
+   - What drugs can be used to treat prediabetes?
+   - Can exercises cure prediabetes?
+   - What are the signs of prediabetes patient?
+   - What are the signs and symptoms of prediabetes?
+   - What are the symptoms of prediabetes?
+   - How long can it take for prediabetes to be treated?
+   - What are the myths and misconceptions of prediabetes?
+
+
+
+
+
+
 -  synonym: diabetes
    examples:  |
     -diabetes mellitus
