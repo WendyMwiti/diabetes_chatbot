@@ -20,10 +20,11 @@ nlu:
 
 - intent: diabetes_meaning
   examples: |
-    -what is diabetes category?
-    -what is diabetes type 1 category?
-    -what is diabetes type 2 category?
+    -what is diabetes ?
+    -what is type 1 diabetes?
+    -what is type 2 diabetes?
     -define diabetes?
+    -I need to know the meaning of diabetes?
     -meaning of diabetes?
     -can you tell more about diabetes?
     -I would like to know more about diabetes. What is it and how does it affect my body?
@@ -36,6 +37,7 @@ nlu:
 - intent:  diabetes_symptoms
   examples: |
     -What are the symptoms of diabetes?
+    -What are the signs of diabetes?
     -How can I tell that I have diabetes?
     -How do I know if I have diabetes?
     -What are the telltale signs of diabetes?
@@ -49,8 +51,11 @@ nlu:
     -Is frequent thirst a symptom of diabetes?
     -Is frequent hunger a symptom of diabetes?
     -I recently lost a lot of weight. Does that mean I have diabetes?  
+    -symptoms of diabetes?
+    -what are the signs and symptoms of diabetes?
+    
 
-- intent:  diabetes_complications
+- intent:  diabetes_risks
   examples: |
     -What are the potential risks of having diabetes?
     -What are the risks associated with diabetes?
