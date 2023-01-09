@@ -51,6 +51,37 @@ responses:
 
  utter_blood_glucose_levels:
  - text: " A normal blood glucose level is between 70-100 mg/dL before meals and less than 140 mg/dL after meals. Blood glucose levels can fluctuate due to many factors such as diet, exercise, illness, stress, or medications. Hypoglycemia is a condition characterized by low blood glucose levels, usually below 70 mg/dL. It can be treated by eating or drinking something that contains glucose, such as a piece of fruit or a glass of orange juice. Hyperglycemia is a condition characterized by high blood glucose levels, usually above 180 mg/dL. It can be treated by taking medications as directed, adjusting diet and exercise habits, and checking blood glucose levels regularly. To stabilize blood glucose levels, it is important to eat a balanced diet, engage in regular physical activity, take any prescribed medications as directed, and check blood glucose levels regularly."
+
+ utter_prediabetes:
+ - text: "Prediabetes is a condition in which a person's blood sugar levels are higher than normal, but not high enough to be classified as type 2 diabetes. It is important to note that prediabetes is not the same as type 2 diabetes, but it does increase the risk of developing it. However, the good news is that prediabetes can be treated and even prevented through lifestyle changes such as eating a healthy diet that includes a variety of vegetables, fruits, whole grains, lean protein sources, and healthy fats, and getting regular physical exercise and losing weight. It is also important to limit or avoid sugary drinks and foods, and to be mindful of portion sizes. While certain medications may also be used to treat prediabetes, lifestyle changes are the most effective way to manage the condition. Signs of prediabetes include increased thirst, frequent urination, and fatigue, but it is important to note that these symptoms can also be caused by other conditions, so it is important to seek medical advice for a proper diagnosis. The length of time it takes to treat prediabetes can vary depending on the individual and the severity of their condition, but making lifestyle changes and working closely with a healthcare provider to develop an appropriate treatment plan can help prevent or delay the progression to type 2 diabetes."
+
+utter_insulin_meaning:
+- text: "an animal-derived or synthetic form of insulin used to treat diabetes"
+
+utter_types_insulin:
+- text: "There are several different types of insulin available, including rapid-acting, short-acting, intermediate-acting, and long-acting. Your doctor will determine the best type for you based on your needs"
+
+utter_use_of_insulin:
+- text: "Insulin is usually injected using a needle and syringe, or with an insulin pen. Your healthcare provider will show you how to properly inject insulin. It's important to follow their instructions and to be consistent with your insulin doses."
+
+utter_side_effects:
+- text: "Some common side effects of insulin include low blood sugar (hypoglycemia), weight gain, and skin irritation at the injection site. Less common side effects may include allergic reactions, low potassium levels, and changes in blood pressure. It's important to talk to your healthcare provider about any side effects you experience while taking insulin."
+
+utter_missing_dose_advice:
+- text: "f you miss a dose of insulin, your blood sugar levels may become too high, which can lead to potential complications. It's important to contact your healthcare provider as soon as possible for guidance on what to do next."
+
+utter_pregnancy_risk:
+- text: " Pregnant women with diabetes are at an increased risk for complications such as high blood sugar levels, preterm labor, and high blood pressure. It's important to work closely with your healthcare provider to manage your diabetes and reduce the risk of complications"
+
+utter_pregnancy_diet_exercise:
+- text: "To ensure the best outcome for both you and your baby during pregnancy, it's important to eat a healthy, balanced diet when you have diabetes. This may include a variety of foods from all food groups, such as whole grains, fruits and vegetables, protein sources, and healthy fats. A registered dietitian or a healthcare provider can help you create a meal plan that meets your individual needs and goals.When pregnant and living with diabetes, it's important to stay active and engage in regular physical activity. This can help you manage your blood sugar levels, maintain a healthy weight, and improve your overall well-being. It's important to speak with your healthcare provider about what types of exercise are safe for you during pregnancy. Some options may include walking, swimming, and low-impact aerobics."
+
+utter_delivery&post_pregnancy_care:
+- text: "Individuals with diabetes may need to carefully manage their blood sugar levels and monitor for complications during delivery and post-pregnancy care. Your healthcare team will also provide support with breastfeeding and nutrition. They will work with you to create a plan that meets your specific needs and ensures the best possible outcome for you and your baby."
+
+utter_managing_pregnancy:
+- text: "To manage your diabetes during pregnancy, it's important to work closely with your healthcare team to create a treatment plan that includes a healthy diet, regular physical activity, and insulin therapy if needed. Regular blood sugar monitoring and attending all prenatal appointments will also help ensure the best outcome for both you and your baby."
+
  
 session_config:
  session_expiration_time: 60.0
