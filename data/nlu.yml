@@ -53,11 +53,12 @@ nlu:
     -I recently lost a lot of weight. Does that mean I have diabetes?  
     -symptoms of diabetes?
     -what are the signs and symptoms of diabetes?
-    
+
 
 - intent:  diabetes_risks
   examples: |
     -What are the potential risks of having diabetes?
+    -What are the risks and complications of diabetes
     -What are the risks associated with diabetes?
     -I'm worried about the potential complications of diabetes. What should I be aware of?
     -I have diabetes and I'm concerned about my long-term health. What are the most common risks associated with diabetes?
