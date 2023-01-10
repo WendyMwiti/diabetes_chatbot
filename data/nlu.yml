@@ -231,7 +231,7 @@ nlu:
    -Can cholestrol cause diabetes?
    -WHO reccomendations on diabetes diet?
    -What are the nutritional requirements of people with diabetes?
-   -What nutrition should people with diabetes follow?
+   -What nutrition should people with diabetes follow
   
 - intent: blood_glucose_levels
   examples:  |
@@ -270,48 +270,9 @@ nlu:
    - What are the symptoms of prediabetes?
    - How long can it take for prediabetes to be treated?
    - What are the myths and misconceptions of prediabetes?
-
-- intent: insulin_meaning
-  examples: |
-   - what is insulin
-   - whats the meaning of insulin
-   - Could you explain the purpose of insulin?
-   - What does insulin do in the body?
-   - How does insulin function in the human body?
-   - What is insulin and what is its role in the body
-   - Is insulin a drug
-
-- intent: types_insulin
-  examples: |
-   - what are the different types of insulin
-   - What are the different kinds of insulin available?
-   - Can you list the types of insulin that exist?
-   - How many types of insulin are there?
-   - What are the various forms of insulin that exist?
-   - Can you provide a breakdown of the different insulin types?
-
-- intent: use_of_insulin
-  examples: |
-   - How do I use insulin
-   - How do I administer insulin?
-   - What is the proper way to use insulin?
-   - Can you give me instructions on how to take insulin?
-   - How should I use insulin to manage my diabetes?
-   - What are the steps for using insulin correctly
-
-- intent: side_effects_of_insulin
-  examples: |
-   - What are the side effects of insulin
-   - What are the potential negative effects of taking insulin?
-   - Can you list the side effects of insulin?
-   - What are the common side effects associated with insulin use?
-   - Are there any risks to using insulin?
-   - What should I be aware of in terms of insulin's side effects?
-
-
-
+   
 - intent: miss_dose
-  examples: |
+  examples:  |
    - What should i do if i miss a dose of insulin?
    - What are the consequences of missing a dose of insulin?
    - What should I do if I forget to take my insulin?
@@ -320,7 +281,7 @@ nlu:
    - Is there a specific course of action I should take if I skip an insulin injection?
 
 - intent: diabetes_pregnancy_risk
-  examples: |
+  examples:  |
    - What are the risks of having diabetes during pregnancy?
    - What are the potential complications of gestational diabetes?
    - Can you list the risks of having diabetes while pregnant?
