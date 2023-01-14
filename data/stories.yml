@@ -1,29 +1,29 @@
 version: "3.1"
 
 stories:
-- story: greet and tell meaning
-  steps:
-  - intent: greet
-  - action: utter_greetings
-  - intent: diabetes_meaning
-  - action: utter_diabetes_meaning
+# - story: greet and tell meaning
+#   steps:
+#   - intent: greet
+#   - action: utter_greetings
+#   - intent: diabetes_meaning
+#   - action: utter_diabetes_meaning
  
-- story: greet and tell symptoms
-  steps:
-  - intent: greet
-  - action: utter_greetings
-  - intent: symptoms_of_diabetes
-  - action: utter_symptoms
-- story: diagnosis_treatment_management
-  steps:
-  - intent: greet
-  - action: utter_greetings
-  - intent: diabetes_diagnosis
-  - action: utter_diabetes_test
-  - intent: diabetes_treatment
-  - action: utter_treating_for_diabetes
-  - intent: diabetes_management
-  - action: utter_diabetes_management
+# - story: greet and tell symptoms
+#   steps:
+#   - intent: greet
+#   - action: utter_greetings
+#   - intent: symptoms_of_diabetes
+#   - action: utter_symptoms
+# - story: diagnosis_treatment_management
+#   steps:
+#   - intent: greet
+#   - action: utter_greetings
+#   - intent: diabetes_diagnosis
+#   - action: utter_diabetes_test
+#   - intent: diabetes_treatment
+#   - action: utter_treating_for_diabetes
+#   - intent: diabetes_management
+#   - action: utter_diabetes_management
   
 - story: risk_prevention_diet
   steps:
@@ -49,45 +49,48 @@ stories:
   - action: utter_diabetes_meaning
   - intent: diabetes_types
   - action: utter_diabetes_types
+
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greetings
+  - intent : affirm
+  - action: suffer_from_diabetes_form
+  - active_loop: suffer_from_diabetes_form
+  - slot_was_set:
+    - requested_slot: suffer
+  - slot_was_set:
+    - suffer: false
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: utter_submit
+  - action: utter_suffer_slots
+  - action: action_deactivate_loop
+  - intent: goodbye
+  - action: utter_goodbye
   
-- story: blood_sugar_regulation_diabetes
-  steps:
-  - intent: diabetes_diagnosis
-  - action: utter_diabetes_diagnosis
-  - intent: blood_glucose_levels
-  - action:  utter_blood_glucose_levels
-
-- story: prediabetes_and_diabetes
-  steps:
-  - intent: prediabetes
-  - action: utter_prediabetes
-  - intent: symptoms_of_diabetes
-  - action: utter_symptoms
-  - intent: diabetes_diet
-  - action: utter_diabetes_diet
-
-- story: pregnancy_and_diabetes
-  steps:
-  - intent: diabetes_pregnancy_risk
-  - action: utter_diabetes_pregnancy_risk
-  - intent: managing_during_pregnancy
-  - action: utter_managing_pregnancy
-  - intent: pregnancy_diet_exercise
-  - action: utter_pregnancy_diet_exercise
-
-
-- story: diabetes_pregnancy_diet_exercise
-  steps:
-  - intent: diabetes_pregnancy_risk
-  - action: utter_diabetes_pregnancy_risk
-  - intent: pregnancy_diet_exercise
-  - action: utter_pregnancy_diet_exercise
-
-- story:  post_pregnancy_care
-  steps:
-  - intent: pregnancy_diet_exercise
-  - action: utter_pregnancy_diet_exercise
-  - intent: delivery&post-pregnancy_care
-  - action: utter_delivery&post_pregnancy_care
-  - intent: managing_during_pregnancy
-  - action: utter_managing_pregnancy
+  
+# - story: interactive_story_2
+#   steps:
+#   - intent: greet
+#   - action: utter_greetings
+#   - intent: affirm
+#   - action: suffer_from_diabetes_form
+#   - active_loop: suffer_from_diabetes_form
+#   - slot_was_set:
+#     - requested_slot: suffer
+#   - slot_was_set:
+#     - suffer: true
+#   - slot_was_set:
+#     - requested_slot: type
+#   - slot_was_set:
+#     - type: type 1 diabetes
+#   - slot_was_set:
+#     - requested_slot: null
+#   - active_loop: null
+#   - action: utter_submit
+#   - action: utter_suffer_slots
+#   - intent: goodbye
+#   - action: utter_goodbye

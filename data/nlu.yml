@@ -232,104 +232,89 @@ nlu:
    -WHO reccomendations on diabetes diet?
    -What are the nutritional requirements of people with diabetes?
    -What nutrition should people with diabetes follow
+
+- intent:  type1_diabetes_type
+  examples:  |
+   - type 1 
+   - diabetes type 1
+   - insulin dependent
+   - juvenile diabetes
+   - early-onset diabetes
+   - juvenile-onset diabetes
+   - brittle diabetes
+
+- intent:  type2_diabetes_type
+  examples:  |
+    - type 2  
+    - diabetes type 2
+    - maturity-onset diabetes
+    - late-onset diabetes
+    - insulin resistance diabetes
+    - adult-onset diabetes
   
-- intent: blood_glucose_levels
-  examples:  |
-   - What is a normal blood glucose level?
-   - What can cause blood glucose levels to fluctuate?
-   - How can I stabilize my blood glucose levels?
-   - Can stress affect my blood glucose levels?
-   - What is hypoglycemia and how do I treat it? 
-   - What is hyperglycemia and how do I treat it?
-   - How often should I check my blood glucose levels?
-   - How do I interpret my blood glucose levels?
-   - What should I do if my blood glucose levels are consistently high or low?
-   - Can certain medications or supplements affect my blood glucose levels?
-   - What is the relationship between blood glucose levels and diabetes?
-   - How does diabetes affect blood glucose levels?
-   - What is the role of insulin in regulating blood glucose levels in people with diabetes?
-   - How do I manage my blood glucose levels if I have type 1 diabetes?
-   - How do I manage my blood glucose levels if I have type 2 diabetes?
-   - Can blood glucose levels be controlled through diet and exercise alone, or do I need medication?
-   - How do I know if my blood glucose levels are too high or too low?
-   - How do I adjust my insulin dosage based on my blood glucose levels?
-   - Can low blood glucose levels (hypoglycemia) be dangerous for people with diabetes?
-   - Can high blood glucose levels (hyperglycemia) lead to long-term complications if not properly managed?
+- intent: gestational_diabetes_type
+  examples:  | 
+    - gestational_diabetes
+    - pregnancy diabetes
+    - post partum diabetes
+    - post natal pregnancy
 
-- intent: prediabetes
+- intent: affirm
   examples:  |
-   - What is prediabetes?
-   - Is prediabetes same as type 2 diabetes?
-   - Can prediabetes be treated?
-   - Can prediabetes be prevented by only diet?
-   - What diet can be used to help treat prediabetes?
-   - What drugs can be used to treat prediabetes?
-   - Can exercises cure prediabetes?
-   - What are the signs of prediabetes patient?
-   - What are the signs and symptoms of prediabetes?
-   - What are the symptoms of prediabetes?
-   - How long can it take for prediabetes to be treated?
-   - What are the myths and misconceptions of prediabetes?
-   
-- intent: miss_dose
-  examples:  |
-   - What should i do if i miss a dose of insulin?
-   - What are the consequences of missing a dose of insulin?
-   - What should I do if I forget to take my insulin?
-   - How do I handle a missed dose of insulin?
-   - What is the proper protocol for a missed insulin dose?
-   - Is there a specific course of action I should take if I skip an insulin injection?
+    - yes
+    - sure
+    - correct
+    - yes i did
+    - i sure did
+    - you bet
+    - fine
+    - more or less
+    - pretty good
+    - of course
+    - i sure did 
+    - yes i do
+    - i do
 
-- intent: diabetes_pregnancy_risk
-  examples:  |
-   - What are the risks of having diabetes during pregnancy?
-   - What are the potential complications of gestational diabetes?
-   - Can you list the risks of having diabetes while pregnant?
-   - What are the dangers of developing diabetes during pregnancy?
-   - Are there any negative effects on the baby if a mother has diabetes during pregnancy?"
-   - What should I be aware of in terms of the risks of diabetes during pregnancy?
-
-- intent: pregnancy_diet_exercise
+- intent: deny
   examples: |
-   - I'm trying to eat a healthy diet and stay active during my pregnancy.
-   - I'm trying to follow a healthy diet and exercise regularly while pregnant.
-   - I want to make sure I'm eating well and staying active during pregnancy.
-   - I'm trying to maintain a healthy lifestyle while expecting.
-   - I'm making an effort to eat nutritiously and stay fit during pregnancy.
-   - I'm trying to prioritize my health by eating well and staying active during pregnancy.
+    - no
+    - i did not
+    - no i did not
+    - never
+    - i dont think so
+    - no way
+    - not really
+    - none
+    - absolutely not
+    - not thank you
+    - nope
+    - not great
+    - could have been better
 
-- intent: delivery&post-pregnancy_care
-  examples: |
-   - I'm planning to deliver via c-section. How will that be different for me because of my diabetes 
-   - What should I expect during delivery and post-pregnancy care if I have diabetes?
-   - I have diabetes. Can you provide information on delivery and postpartum care for me?
-   - What are the typical procedures for delivery and post-pregnancy care for individuals with diabetes?
-   - I have diabetes and I'm wondering about the process for delivery and post-baby care. Can you help?
-   - I'm looking for information on delivery and postnatal care for mothers with diabetes. Can you assist  
+- intent: inform
+  examples:  |
+   - [insulin dependent](typez)
+   - [juvenile diabetes](typez)
+   - [early-onset diabetes](typez)
+   - [juvenile-onset diabetes](typez)
+   - [brittle diabetes](typez)
+   - [type 1 diabetes](typez)
+   - [non-insulin-dependent diabetes](typez)
+   - [maturity-onset diabetes](typez)
+   - [late-onset diabetes](typez)
+   - [chronic diabetes](typez)
+   - [insulin resistance diabetes](typez)
+   - [adult-onset diabetes](typez)
+   - [type 2 diabetes](typez)
+   - [type I diabetes](typez)
+   - [type 2 diabetes](typez)
+   - [type 1](typez)
+   - [type 2](typez)
+   - [gestational_diabetes](typez)
 
-- intent: managing_during_pregnancy
-  examples: |
-   - How can I manage my diabetes during pregnancy to ensure the best outcome for both me and my baby
-   - I'm planning to breastfeed after delivery. How will my diabetes impact that?
-   - I'm scheduled for a c-section next week. How will my diabetes be managed during the surgery and recovery?
-   - I'm concerned about my blood sugar levels after giving birth. How can I make sure they stay under control?
-   - I had gestational diabetes during my pregnancy. What should I expect
-
-
-
-   
-
-
-
-
-
-
--  synonym: diabetes
-   examples:  |
-    -diabetes mellitus
-
--   synonym: diabetes type 1
-    examples:  |
-     -diabetes type 1
-
- 
+- intent: bot_challenge
+  examples:  |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

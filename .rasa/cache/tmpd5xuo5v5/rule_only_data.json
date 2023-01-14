@@ -1,0 +1,7 @@
+{
+  "rule_only_slots": [],
+  "rule_only_loops": [
+    "fancy_pizza_form",
+    "suffer_from_diabetes_form"
+  ]
+}
