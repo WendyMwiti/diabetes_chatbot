@@ -54,22 +54,19 @@ stories:
 - story: interactive_story_1
   steps:
   - intent: greet
-  - action: utter_greetings
-  - intent : affirm
-  - action: suffer_from_diabetes_form
+  - action: action_ask_suffer
   - active_loop: suffer_from_diabetes_form
   - slot_was_set:
     - requested_slot: suffer
+  - action: action_ask_type
   - slot_was_set:
-    - suffer: false
-  - slot_was_set:
-    - requested_slot: null
+    - requested_slot: type
   - active_loop: null
   - action: utter_submit
   - action: utter_suffer_slots
-  - action: action_deactivate_loop
   - intent: goodbye
   - action: utter_goodbye
+
   
   
 # - story: interactive_story_2

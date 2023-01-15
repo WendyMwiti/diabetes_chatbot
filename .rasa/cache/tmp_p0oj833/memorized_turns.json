@@ -1,0 +1,28 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+pLIgtbi2NhYA8o0fQw==": "utter_diabetes_types",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+pLIgtbiWgGGlJSWpRfFoegiaGQsAhzM/0Q==": "action_listen",
+    "eJyljlEKhDAMRK/SA3iCXkUkVM0ugTWVdCpI8e4G3K/9WcG/GZj3mL4dXWir8UZpgmSNoV2BNC0cw7d8pIDVt7Ww+UbUK2KYJY0MLoR95XL8kVWAjX6Yh867B6esMBkrRN/0ciqbu4cTzmVjlw==": "utter_contributing_factors",
+    "eJyljlEKgzAQRK+SA3iCXKWUJbHbsmA3spkIEry7Af0qQhX/ZmDezDzq0rk6Gk8UekhS7+omSMOXvdvNIBmsLVsyW8uINgvvXhIigzNhHjkvf8oKwEY/zM3Oswf7pDCJBaIfejcq2cm/h+TVoecKETyM7Q==": "action_listen",
+    "eJytj1EKAjEMRK/SA3iCXmWR0F2jBNx0SaeClN7diPslggX9y4Q3k8nU+iG0zfhGaYFkjaG9BtK0cgy7uEoBq7O1sDkj6hIxnCTNDC6E+8alfwmrABu9eX7MHC24ZIXJXCF6obO7sg32/ej876HRJ54RvnG29+MDPTeslA==": "utter_prevention_for_diabetes",
+    "eJytUG0KwjAMvUoPsBP0KiKhm5kENB1pOpCyuxtRGIzBAvNfXnhfyaUtXWiT4AxpUMocQ/sOwOmJMfzAg4oiG7cWFOMQG9QYbpR6VCygrwnLcmBWVVFgoznp6S04ZFahvirxHUZTZXH23VX+N8h7xMfCNsb1VV/5MOb1886E6xuhxtLy": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "suffer_from_diabetes_form",
+    "eJyFjUEKwzAMBL+iB4TgXv2VEITbroMhtouk9GLy9wrSa+ltF2Z2l3FONF6CN6eHld4ijStwSxWRvmUvamjOHgpxpjSvFmkTwM4/G3rkDOEsvfKzpDsMyrlLdU/3burCxURabnOYKMxh/Xm2fgBPxEMX": "utter_submit",
+    "eJydjUEKwzAMBL+iB4TgXv2VEITTykUQ20WSezH5ewXJvZDbLszsLuOYYHyEvpiexq1GGGfAmgpFuMrOalSd7UriDFevFuEtRHb82dCeMwlmaQVfnDYyUsxNinu6N1MXTibC8pjDBGEO682zbuZf2rfCdm9//QEbv2V/": "utter_suffer_slots",
+    "eJy1j0EKwzAMBL+iB4TgXv2VEIzTykUQ20WSezH5e0XSeyCQmxZ2Z9DUtwH6h/Eb4lOpFg/9OEKJGT38w0qiWKzbBNk6VCyqhzcj6nbCkJYSckhcc3hRXFBRQqqcbSdrVbHB0fEwPUY3gBvdfFHWVM0lbcmkd/L3l3b6Ncv8AyQdinI=": "action_deactivate_loop",
+    "eJy1j0sKhDAQRK/SBxDJbHMVkRDHzhDIR7o7bsS7T4+6HxDcVUFVPWrY9g62hXB1/i2xFgvbKVzxGS1cJkUWLJptjKSZWNSKhQ8hyv5ng1sISC5QzW6OfkJBdqFS1h6nKqyFM2NhePWmA9Ob8SasiSiL25SjPLl/XDrWn6BcZsafWL2gS7Uu90jjF6QRsMM=": "action_listen",
+    "eJy1kVEKgzAQRK+yBxBJf3MVkRDrpgRMVrIboUju3lSlv6WF/M3AzDyWHfbSwb4m3Iy9i6eoYT+FiTaghsssngVjzWbGVDM+VisaHglRypcNzs5hMi5RMLO3EwqycZRC7fFCwrVwZjQMt151oHo1/gnLIpXFeQpeWu4fJx3rLSiXmfEtNitoFqK1Ienz4J8ARPP0xFLGFwkS1EI=": "utter_goodbye",
+    "eJy1kV0KwyAQhK/iAUJIX71KCGLqWgR1g7sGSsjda37a17YB33ZgZj52t1/WRixTglnpOzuMUizHoKIOIMUpvCOGWLyZIBWPi0WyFI8EwOuXDsrWQlI2YVDG6REYSFlMoeTII1MJHB4p+lvbNaJru+EiLDMXFuUxOK7Zv6+0t9egnMLANsyaQXnEqSLp8+C/AIhmfMJvJ3ubLyKGFy3j99E=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTg+NzUxLzMvvbY2FgAwxx/t": "utter_diabetes_meaning",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTg+NzUxLzMvvZaAcaUlJalF8Ri6iDA3FgD8w0HP": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTg+NzUxLzMvvZaAcaUlJalF8Ri6KDaXWGeWVBakFtfWxgIANVlfYQ==": "utter_diabetes_types",
+    "eJyljlEKgCAQRK/iATqBV4kQqyEWchNdgxDvnmB/fVT0NwPzHtPn0qnsA3ZjJ6GNtcotGLYOWl1lpSjguk0RoW6IaxWtZrIjBNE4WCZeyoMuiSCYG/Xb+/amHB7x48nGPDqHE9UDf+8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+KLM4u7i2NhYA8j0fOg==": "utter_risks",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+KLM4u7iWgGGlJSWpRVClBI2KBQBOpzwW": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+KLM4u7iWgGGlJSWpRVClFBpFrLtARgBFgGpra2MBlD5bvQ==": "utter_prevention_for_diabetes",
+    "eJyljkEKgDAMBL/SB/iCfkUkVI0Q1CpJ6qX4dyMqHi14y4Zhduu8Vy6vjBuETmmJ3uXrgBhm9O4OE4liNDYJsjEULap3PYUWFQWYZJT9Q5ZUkW/0p6p016mwj7Fl414ehoXh8RQ2NAcEvYIb": "action_listen",
+    "eJytjkEKg0AMRa+SA3iCuUqRMNYIoXUsSXQz5O5NqeLSgXaXHx7v/1v1DupLaMN8N15Kgvo9sOSZEuzhyWpUgl2VJBguES3ByHkgI0VhfahfyFYzkh39UdW666OIT7Bt404ep0Xw8PyloXXzyGTu/Rv0tJ8e": "utter_diabetes_diet",
+    "eJytjlEKgzAMhq/SA+wEvcoYobMZBLVKku6l9O5GVMaeLOhb/vDly/8s9eHKzPiF0ClNybuyDZDCiN7tYSBRTMZmQTaGkkX1LlJ4o6IAk/RST2RZFXlHL6pae60K2xjbVu7Hw2diODy3fGjtHAm1re3/yZnxtQD5ab6O": "action_listen"
+  }
+}

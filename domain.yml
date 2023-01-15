@@ -61,10 +61,10 @@ responses:
  - text: "People with diabetes should aim to follow a healthy eating plan that includes a variety of nutrient-dense foods, moderate portion sizes and regular meals. They should choose carbohydrates that are high in fiber and limit added sugars. It is important to monitor blood sugar levels and work with a healthcare professional to develop a diet plan that meets individual needs."
 
  utter_submit:
-  - text: "I will now order a pizza for you! "
+  - text: "Not to worry! Diabetes is a manageable disease "
 
  utter_suffer_slots:
-  - text: "The form has been submitted"  
+  - text: "I'm here to support you with the resources you need"  
 
  utter_goodbye:
   - text: "Bye."
@@ -72,38 +72,6 @@ responses:
  utter_iamabot:
   - text: "I am a bot, powered by Rasa." 
 
-forms:
-  suffer_from_diabetes_form:
-    required_slots:
-        - suffer
-        - type
-  
-
-slots:
-  suffer:
-    type: bool
-    influence_conversation: true
-    mappings:
-    - type: from_intent
-      value: true
-      intent: affirm
-    - type: from_intent
-      value: false
-      intent: deny
-
-  type:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_intent
-      value: type 1
-      intent: type1_diabetes_type
-    - type: from_intent
-      value: type 2
-      intent: type2_diabetes_type
-    - type: from_intent
-      value: gestational diabetes
-      intent: gestational_diabetes_type
 
 
 actions:

@@ -1,34 +1,34 @@
 version: "3.1"
 
-rules:
+# rules:
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+# - rule: Say goodbye anytime the user says goodbye
+#   steps:
+#   - intent: goodbye
+#   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
-
-
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
 
 
-- rule: Submit suffer from diabetes form
-  steps:
-  - intent: affirm
-  - action: suffer_from_diabetes_form
-  - active_loop: suffer_from_diabetes_form
 
-- rule: suffer from diabetes form
-  condition:
-  - active_loop: suffer_from_diabetes_form
-  steps:
-  - action: suffer_from_diabetes_form
-  - active_loop: null
-  - slot_was_set:
-    - requested_slot: null
-  - action: utter_submit
-  - action: utter_suffer_slots
-  - action: action_deactivate_loop
+
+# - rule: Submit suffer from diabetes form
+#   steps:
+#   - intent: greet
+#   - action: suffer_from_diabetes_form
+#   - active_loop: suffer_from_diabetes_form
+
+# - rule: suffer from diabetes form
+#   condition:
+#   - active_loop: suffer_from_diabetes_form
+#   steps:
+#   - action: suffer_from_diabetes_form
+#   - active_loop: null
+#   - slot_was_set:
+#     - requested_slot: null
+#   - action: utter_submit
+#   - action: utter_suffer_slots
+  
