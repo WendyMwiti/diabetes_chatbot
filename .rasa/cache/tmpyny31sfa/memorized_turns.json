@@ -1,0 +1,22 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+pLIgtbi2NhYA8o0fQw==": "utter_diabetes_types",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+pLIgtbiWgGGlJSWpRfFoegiaGQsAhzM/0Q==": "action_listen",
+    "eJyljlEKhDAMRK/SA3iCXkUkVM0ugTWVdCpI8e4G3K/9WcG/GZj3mL4dXWir8UZpgmSNoV2BNC0cw7d8pIDVt7Ww+UbUK2KYJY0MLoR95XL8kVWAjX6Yh867B6esMBkrRN/0ciqbu4cTzmVjlw==": "utter_contributing_factors",
+    "eJyljlEKgzAQRK+SA3iCXKWUJbHbsmA3spkIEry7Af0qQhX/ZmDezDzq0rk6Gk8UekhS7+omSMOXvdvNIBmsLVsyW8uINgvvXhIigzNhHjkvf8oKwEY/zM3Oswf7pDCJBaIfejcq2cm/h+TVoecKETyM7Q==": "action_listen",
+    "eJytj1EKAjEMRK/SA3iCXmWR0F2jBNx0SaeClN7diPslggX9y4Q3k8nU+iG0zfhGaYFkjaG9BtK0cgy7uEoBq7O1sDkj6hIxnCTNDC6E+8alfwmrABu9eX7MHC24ZIXJXCF6obO7sg32/ej876HRJ54RvnG29+MDPTeslA==": "utter_prevention_for_diabetes",
+    "eJytUG0KwjAMvUoPsBP0KiKhm5kENB1pOpCyuxtRGIzBAvNfXnhfyaUtXWiT4AxpUMocQ/sOwOmJMfzAg4oiG7cWFOMQG9QYbpR6VCygrwnLcmBWVVFgoznp6S04ZFahvirxHUZTZXH23VX+N8h7xMfCNsb1VV/5MOb1886E6xuhxtLy": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTg+NzUxLzMvvbY2FgAwxx/t": "utter_diabetes_meaning",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTg+NzUxLzMvvZaAcaUlJalF8Ri6iDA3FgD8w0HP": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTg+NzUxLzMvvZaAcaUlJalF8Ri6KDaXWGeWVBakFtfWxgIANVlfYQ==": "utter_diabetes_types",
+    "eJyljlEKgCAQRK/iATqBV4kQqyEWchNdgxDvnmB/fVT0NwPzHtPn0qnsA3ZjJ6GNtcotGLYOWl1lpSjguk0RoW6IaxWtZrIjBNE4WCZeyoMuiSCYG/Xb+/amHB7x48nGPDqHE9UDf+8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+KLM4u7i2NhYA8j0fOg==": "utter_risks",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+KLM4u7iWgGGlJSWpRVClBI2KBQBOpzwW": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJTMxKbUktTi+KLM4u7iWgGGlJSWpRVClFBpFrLtARgBFgGpra2MBlD5bvQ==": "utter_prevention_for_diabetes",
+    "eJyljkEKgDAMBL/SB/iCfkUkVI0Q1CpJ6qX4dyMqHi14y4Zhduu8Vy6vjBuETmmJ3uXrgBhm9O4OE4liNDYJsjEULap3PYUWFQWYZJT9Q5ZUkW/0p6p016mwj7Fl414ehoXh8RQ2NAcEvYIb": "action_listen",
+    "eJytjkEKg0AMRa+SA3iCuUqRMNYIoXUsSXQz5O5NqeLSgXaXHx7v/1v1DupLaMN8N15Kgvo9sOSZEuzhyWpUgl2VJBguES3ByHkgI0VhfahfyFYzkh39UdW666OIT7Bt404ep0Xw8PyloXXzyGTu/Rv0tJ8e": "utter_diabetes_diet",
+    "eJytjlEKgzAMhq/SA+wEvcoYobMZBLVKku6l9O5GVMaeLOhb/vDly/8s9eHKzPiF0ClNybuyDZDCiN7tYSBRTMZmQTaGkkX1LlJ4o6IAk/RST2RZFXlHL6pae60K2xjbVu7Hw2diODy3fGjtHAm1re3/yZnxtQD5ab6O": "action_listen"
+  }
+}

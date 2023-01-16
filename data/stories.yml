@@ -25,47 +25,36 @@ stories:
 #   - intent: diabetes_management
 #   - action: utter_diabetes_management
   
-- story: risk_prevention_diet
-  steps:
-  - intent: diabetes_risks
-  - action: utter_risks
-  - intent: diabetes_prevention
-  - action: utter_prevention_for_diabetes
-  - intent: diabetes_diet
-  - action: utter_diabetes_diet
+# - story: risk_prevention_diet
+#   steps:
+#   - intent: diabetes_risks
+#   - action: utter_risks
+#   - intent: diabetes_prevention
+#   - action: utter_prevention_for_diabetes
+#   - intent: diabetes_diet
+#   - action: utter_diabetes_diet
   
-- story: types_contributors_prevention
-  steps:
-  - intent: diabetes_types
-  - action: utter_diabetes_types
-  - intent: diabetes_contributing_factors
-  - action: utter_contributing_factors
-  - intent: diabetes_prevention
-  - action: utter_prevention_for_diabetes
+# - story: types_contributors_prevention
+#   steps:
+#   - intent: diabetes_types
+#   - action: utter_diabetes_types
+#   - intent: diabetes_contributing_factors
+#   - action: utter_contributing_factors
+#   - intent: diabetes_prevention
+#   - action: utter_prevention_for_diabetes
   
-- story: meaning_types_management
-  steps:
-  - intent: diabetes_meaning
-  - action: utter_diabetes_meaning
-  - intent: diabetes_types
-  - action: utter_diabetes_types
+# - story: meaning_types_management
+#   steps:
+#   - intent: diabetes_meaning
+#   - action: utter_diabetes_meaning
+#   - intent: diabetes_types
+#   - action: utter_diabetes_types
 
 
-- story: interactive_story_1
+- story: the first story
   steps:
   - intent: greet
-  - action: action_ask_suffer
-  - active_loop: suffer_from_diabetes_form
-  - slot_was_set:
-    - requested_slot: suffer
-  - action: action_ask_type
-  - slot_was_set:
-    - requested_slot: type
-  - active_loop: null
-  - action: utter_submit
-  - action: utter_suffer_slots
-  - intent: goodbye
-  - action: utter_goodbye
+  - action: action_gpt3_response
 
   
   

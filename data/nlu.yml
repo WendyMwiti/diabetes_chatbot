@@ -18,303 +18,303 @@ nlu:
     - sup
     - hola
 
-- intent: diabetes_meaning
-  examples: |
-    -what is diabetes ?
-    -what is type 1 diabetes?
-    -what is type 2 diabetes?
-    -define diabetes?
-    -I need to know the meaning of diabetes?
-    -meaning of diabetes?
-    -can you tell more about diabetes?
-    -I would like to know more about diabetes. What is it and how does it affect my body?
-    -I'm confused about diabetes. Can you give me a brief overview?
-    -I have a friend who has diabetes and I want to learn more about it. Can you help?
-    -I'm unfamiliar with diabetes. Can you provide some basic information?
-    -I've heard of diabetes, but I'm not sure exactly what it is. Can you help me understand?
-    -I'm interested in learning more about diabetes. Can you give me some information?
+# - intent: diabetes_meaning
+#   examples: |
+#     -what is diabetes ?
+#     -what is type 1 diabetes?
+#     -what is type 2 diabetes?
+#     -define diabetes?
+#     -I need to know the meaning of diabetes?
+#     -meaning of diabetes?
+#     -can you tell more about diabetes?
+#     -I would like to know more about diabetes. What is it and how does it affect my body?
+#     -I'm confused about diabetes. Can you give me a brief overview?
+#     -I have a friend who has diabetes and I want to learn more about it. Can you help?
+#     -I'm unfamiliar with diabetes. Can you provide some basic information?
+#     -I've heard of diabetes, but I'm not sure exactly what it is. Can you help me understand?
+#     -I'm interested in learning more about diabetes. Can you give me some information?
 
-- intent:  diabetes_symptoms
-  examples: |
-    -What are the symptoms of diabetes?
-    -What are the signs of diabetes?
-    -How can I tell that I have diabetes?
-    -How do I know if I have diabetes?
-    -What are the telltale signs of diabetes?
-    -I've heard that diabetes can have no symptoms at all. Is that true?
-    -What are the common symptoms of diabetes?
-    -I'm concerned I might have diabetes. What should I be on the lookout for?
-    -I think I might have diabetes. What should I look for?
-    -I'm not sure if I have diabetes. What are the early warning signs I should be aware of?
-    -I've heard that diabetes can have some unusual symptoms. What are they?
-    -I urinate frequently. Does that mean I have diabetes?
-    -Is frequent thirst a symptom of diabetes?
-    -Is frequent hunger a symptom of diabetes?
-    -I recently lost a lot of weight. Does that mean I have diabetes?  
-    -symptoms of diabetes?
-    -what are the signs and symptoms of diabetes?
+# - intent:  diabetes_symptoms
+#   examples: |
+#     -What are the symptoms of diabetes?
+#     -What are the signs of diabetes?
+#     -How can I tell that I have diabetes?
+#     -How do I know if I have diabetes?
+#     -What are the telltale signs of diabetes?
+#     -I've heard that diabetes can have no symptoms at all. Is that true?
+#     -What are the common symptoms of diabetes?
+#     -I'm concerned I might have diabetes. What should I be on the lookout for?
+#     -I think I might have diabetes. What should I look for?
+#     -I'm not sure if I have diabetes. What are the early warning signs I should be aware of?
+#     -I've heard that diabetes can have some unusual symptoms. What are they?
+#     -I urinate frequently. Does that mean I have diabetes?
+#     -Is frequent thirst a symptom of diabetes?
+#     -Is frequent hunger a symptom of diabetes?
+#     -I recently lost a lot of weight. Does that mean I have diabetes?  
+#     -symptoms of diabetes?
+#     -what are the signs and symptoms of diabetes?
 
 
-- intent:  diabetes_risks
-  examples: |
-    -What are the potential risks of having diabetes?
-    -What are the risks and complications of diabetes
-    -What are the risks associated with diabetes?
-    -I'm worried about the potential complications of diabetes. What should I be aware of?
-    -I have diabetes and I'm concerned about my long-term health. What are the most common risks associated with diabetes?
-    -I'm trying to learn more about the potential complications of diabetes. What should I know?
-    -I'm at risk for developing diabetes. What are the potential health problems I should be aware of?
-    -I'm concerned about the risks of diabetes. Can you tell me more about them?
-    -I'm trying to educate myself about the risks of diabetes. What should I be aware of?
-    -What are the longterm health risks associated with diabetes?
-    -How does high blood sugars affect an individual overtime?
-    -What can happen if my diabetes is not properly treated or controlled?
-    -What is the link between diabetes and heart disease?
-    -What is the link between diabetes and kidney problems?
-    -What is the link between diabetes and eye problems
+# - intent:  diabetes_risks
+#   examples: |
+#     -What are the potential risks of having diabetes?
+#     -What are the risks and complications of diabetes
+#     -What are the risks associated with diabetes?
+#     -I'm worried about the potential complications of diabetes. What should I be aware of?
+#     -I have diabetes and I'm concerned about my long-term health. What are the most common risks associated with diabetes?
+#     -I'm trying to learn more about the potential complications of diabetes. What should I know?
+#     -I'm at risk for developing diabetes. What are the potential health problems I should be aware of?
+#     -I'm concerned about the risks of diabetes. Can you tell me more about them?
+#     -I'm trying to educate myself about the risks of diabetes. What should I be aware of?
+#     -What are the longterm health risks associated with diabetes?
+#     -How does high blood sugars affect an individual overtime?
+#     -What can happen if my diabetes is not properly treated or controlled?
+#     -What is the link between diabetes and heart disease?
+#     -What is the link between diabetes and kidney problems?
+#     -What is the link between diabetes and eye problems
 
-- intent:  diabetes_contributing_factors
-  examples: |
-    -What are the contributing factors to diabetes?
-    -Am I at risk of getting diabetes?
-    -What causes diabetes?
-    -What are the causative agents of diabetes?
-    -Is consuming too much sugar a contributing factor?
-    -Does consuming alcohol increase my chances of getting diabetes?
-    -What are the main factors that contribute to the development of diabetes?
-    -I'm trying to understand the factors that increase the risk of diabetes. Can you provide some information?
-    -I'm trying to educate myself about the causes of diabetes. What should I know?
-    -Does being obese increase my chances of getting diabetes?
-    -Does being overweight increase my chances of getting diabetes?
-    -Do carbohydrates increase my chances of developing diabetes?
-    -Does lack of exercise increase my risk of getting diabetes?
-    -My blood pressure is high. Am i at risk of getting diabetes?
-    -Does my race increase my chances of getting diabetes?
-    -Is stress a risk of getting diabetes?
-    -Which age groups are likely to get diabetes?
-    -Does my medical history increase my chances of getting diabetes?
-    -My family has a history of diabetes. Am I at risk of getting it?
-    -Am i at risk of getting diabetes while pregnant?
+# - intent:  diabetes_contributing_factors
+#   examples: |
+#     -What are the contributing factors to diabetes?
+#     -Am I at risk of getting diabetes?
+#     -What causes diabetes?
+#     -What are the causative agents of diabetes?
+#     -Is consuming too much sugar a contributing factor?
+#     -Does consuming alcohol increase my chances of getting diabetes?
+#     -What are the main factors that contribute to the development of diabetes?
+#     -I'm trying to understand the factors that increase the risk of diabetes. Can you provide some information?
+#     -I'm trying to educate myself about the causes of diabetes. What should I know?
+#     -Does being obese increase my chances of getting diabetes?
+#     -Does being overweight increase my chances of getting diabetes?
+#     -Do carbohydrates increase my chances of developing diabetes?
+#     -Does lack of exercise increase my risk of getting diabetes?
+#     -My blood pressure is high. Am i at risk of getting diabetes?
+#     -Does my race increase my chances of getting diabetes?
+#     -Is stress a risk of getting diabetes?
+#     -Which age groups are likely to get diabetes?
+#     -Does my medical history increase my chances of getting diabetes?
+#     -My family has a history of diabetes. Am I at risk of getting it?
+#     -Am i at risk of getting diabetes while pregnant?
 
-- intent:  diabetes_types
-  examples: |
-    -What are the various types of diabetes?
-    -Types of diabetes?
-    -How many types of diabetes do we have?
-    -What are the common types of diabetes?
-    -What is the differences between the various diabetes types?
-    -How can I know what type of diabetes I'm suffering from?
-    -Diabetes types?
-    -What is diabetes mellitus?
-    -Can you tell me more about the different types of diabetes?
-    -I've heard of type 1 and type 2 diabetes, but are there other types?
-    -I'm trying to learn more about the various types of diabetes. Can you provide some information?
-    -I'm not sure I understand the distinction between the different types of diabetes. Can you explain it to me?
-    -What are the various forms of diabetes?
-    -Forms of diabetes?
-    -What is the nutrition for diabetes?
+# - intent:  diabetes_types
+#   examples: |
+#     -What are the various types of diabetes?
+#     -Types of diabetes?
+#     -How many types of diabetes do we have?
+#     -What are the common types of diabetes?
+#     -What is the differences between the various diabetes types?
+#     -How can I know what type of diabetes I'm suffering from?
+#     -Diabetes types?
+#     -What is diabetes mellitus?
+#     -Can you tell me more about the different types of diabetes?
+#     -I've heard of type 1 and type 2 diabetes, but are there other types?
+#     -I'm trying to learn more about the various types of diabetes. Can you provide some information?
+#     -I'm not sure I understand the distinction between the different types of diabetes. Can you explain it to me?
+#     -What are the various forms of diabetes?
+#     -Forms of diabetes?
+#     -What is the nutrition for diabetes?
 
-- intent:  diabetes_diagnosis
-  examples: |
-    -How do I find out I'm suffering from diabetes?
-    -What is a A1C test?
-    -Can I drink water during the two hour period before testing my blood sugars?
-    -I'm new to diabetes and I'm having trouble sticking myself for testing blood sugar. What should I do?
-    -What are the various types of diabetes tests?
-    -What is the most accurate test for diabetes?
-    -Can I test myself for diabetes?
-    -My fingertips hurt from testing. Does it matter if I get my blood sample from somewhere else in my body?
-    -Do I need to fast before taking my A1C test?
-    -Do I need to fast before testing my sugar levels?
-    -I'm concerned I might have diabetes. How can I find out for sure?
-    -I'm concerned I might have diabetes. What tests should I get to confirm the diagnosis?
-    -I'm trying to understand the process of diagnosing diabetes. Can you provide some information?
-    -What is the easiest way to test for diabetes?
-    -What is the new test for diabetes?
-    -How can you tell if you have diabetes without a test?
-    -What tests are used to diagnose diabetes?
-    -What tests are done to check for diabetes?
-    -How is diabetes diagnosed?
-    -What are WHO procedures on diabetes diagnosis?
+# - intent:  diabetes_diagnosis
+#   examples: |
+#     -How do I find out I'm suffering from diabetes?
+#     -What is a A1C test?
+#     -Can I drink water during the two hour period before testing my blood sugars?
+#     -I'm new to diabetes and I'm having trouble sticking myself for testing blood sugar. What should I do?
+#     -What are the various types of diabetes tests?
+#     -What is the most accurate test for diabetes?
+#     -Can I test myself for diabetes?
+#     -My fingertips hurt from testing. Does it matter if I get my blood sample from somewhere else in my body?
+#     -Do I need to fast before taking my A1C test?
+#     -Do I need to fast before testing my sugar levels?
+#     -I'm concerned I might have diabetes. How can I find out for sure?
+#     -I'm concerned I might have diabetes. What tests should I get to confirm the diagnosis?
+#     -I'm trying to understand the process of diagnosing diabetes. Can you provide some information?
+#     -What is the easiest way to test for diabetes?
+#     -What is the new test for diabetes?
+#     -How can you tell if you have diabetes without a test?
+#     -What tests are used to diagnose diabetes?
+#     -What tests are done to check for diabetes?
+#     -How is diabetes diagnosed?
+#     -What are WHO procedures on diabetes diagnosis?
 
-- intent:  diabetes_treatment
-  examples: |
-    -What are the various treatments for diabetes?
-    -How is diabetes treated?
-    -Can diabetes be cured?
-    -Are there any herbal remedies for diabetes?
-    -Will I need other medication in addition to insulin?
-    -Do I need to go in insulin?
-    -Is it possible to stop being diabetic?
-    -Can I reverse diabetes?
-    -Who should take pills and who should take insulin?
-    -What are the treatments for diabetes?
-    -What is the most common treatment for diabetes?
-    -What is the first line treatment for diabetes?
-    -What are the ways to control diabetes?
-    -What is the best medicine for diabetes?
-    -What is the permanent treatment for diabetes?
-    -How long does it take to treat diabetes?
-    -Does changing diet alone treat diabetes?
-    -Does exercising alone treat diabetes?
-    -What are WHO reccommendations on diabetes_treatment?
+# - intent:  diabetes_treatment
+#   examples: |
+#     -What are the various treatments for diabetes?
+#     -How is diabetes treated?
+#     -Can diabetes be cured?
+#     -Are there any herbal remedies for diabetes?
+#     -Will I need other medication in addition to insulin?
+#     -Do I need to go in insulin?
+#     -Is it possible to stop being diabetic?
+#     -Can I reverse diabetes?
+#     -Who should take pills and who should take insulin?
+#     -What are the treatments for diabetes?
+#     -What is the most common treatment for diabetes?
+#     -What is the first line treatment for diabetes?
+#     -What are the ways to control diabetes?
+#     -What is the best medicine for diabetes?
+#     -What is the permanent treatment for diabetes?
+#     -How long does it take to treat diabetes?
+#     -Does changing diet alone treat diabetes?
+#     -Does exercising alone treat diabetes?
+#     -What are WHO reccommendations on diabetes_treatment?
 
-- intent:  diabetes_prevention
-  examples: |
-    -Does regular exercise prevent diabetes?
-    -Are there medications that I can take to prevent diabetes?
-    -Is there a diet that can help prevent diabetes?
-    -What can I do to prevent diabetes?
-    -What can I do to control diabetes?
-    -Does consuming less sugars help prevent diabetes?
-    -Does maintaining a healthy weight help prevent diabetes?
-    -Does avoiding tobacco use help prevent diabetes?
-    -Is there anything I can do to prevent diabetes?
-    -Are there natural herbs that can help prevent diabetes?
-    -What are the food types that help prevent diabetes?
-    -Can type 1 diabetes be prevented?
-    -How can diabetes be prevented naturally?
-    -How can I reduce diabetes without medication?
-    -What are the natural foods that can help prevent diabetes?
-    -What are the best ways to prevent diabetes?
-    -Can diabetes be prevented?
-    -WHO guidelines for diabetes prevention
+# - intent:  diabetes_prevention
+#   examples: |
+#     -Does regular exercise prevent diabetes?
+#     -Are there medications that I can take to prevent diabetes?
+#     -Is there a diet that can help prevent diabetes?
+#     -What can I do to prevent diabetes?
+#     -What can I do to control diabetes?
+#     -Does consuming less sugars help prevent diabetes?
+#     -Does maintaining a healthy weight help prevent diabetes?
+#     -Does avoiding tobacco use help prevent diabetes?
+#     -Is there anything I can do to prevent diabetes?
+#     -Are there natural herbs that can help prevent diabetes?
+#     -What are the food types that help prevent diabetes?
+#     -Can type 1 diabetes be prevented?
+#     -How can diabetes be prevented naturally?
+#     -How can I reduce diabetes without medication?
+#     -What are the natural foods that can help prevent diabetes?
+#     -What are the best ways to prevent diabetes?
+#     -Can diabetes be prevented?
+#     -WHO guidelines for diabetes prevention
 
-- intent:   diabetes_management
-  examples: |
-    -What are the steps to manage diabetes?
-    -How can I manage diabetes?
-    -What are the ways to manage diabetes?
-    -How should I adjust insulin doses before, during and after exercise?
-    -How can I manage my blood sugar during sport and exercise activities?
-    -I don't want my friends or co-workers to know that I have diabetes. How can I manag it discreetly in public places?
-    -What information should I give my doctor to help them manage my diabetes with me?
-    -What tests should I do on a regular basis to monitor my diabetes?
-    -What is the management of type 1 diabetes?
-    -What is the management of type 2 diabetes?
-    -What are the right procedures for the management of diabetes?
-    -How often should I test my blood sugar levels?
-    -What is the firstline management of type 1 diabetes?
-    -What is the firstline management of type 2 diabetes?
-    -WHO guidelines for diabetes management
-    -Can you recommend some strategies for controlling my diabetes?
-    -I need to know what to do if my blood sugar gets too high or too low
-    -I want to know more about the different types of diabetes and how to manage them
-    -I need to know how to properly take my insulin
-    -I have diabetes and I need help managing my blood sugar levels
-    -I'm struggling to stick to my diabetes management plan. Can you offer some tips for staying on track?
-    -I have diabetes. How can I take care of my feet?
-    -How can I manage diabetes during times of stress?
-    -How can I track and interpret my blood sugar and other test results over time to better manage my diabetes?
-    -How do I manage diabetes during pregnancy? 
-    -WHO reccommendations on diabetes_management? 
+# - intent:   diabetes_management
+#   examples: |
+#     -What are the steps to manage diabetes?
+#     -How can I manage diabetes?
+#     -What are the ways to manage diabetes?
+#     -How should I adjust insulin doses before, during and after exercise?
+#     -How can I manage my blood sugar during sport and exercise activities?
+#     -I don't want my friends or co-workers to know that I have diabetes. How can I manag it discreetly in public places?
+#     -What information should I give my doctor to help them manage my diabetes with me?
+#     -What tests should I do on a regular basis to monitor my diabetes?
+#     -What is the management of type 1 diabetes?
+#     -What is the management of type 2 diabetes?
+#     -What are the right procedures for the management of diabetes?
+#     -How often should I test my blood sugar levels?
+#     -What is the firstline management of type 1 diabetes?
+#     -What is the firstline management of type 2 diabetes?
+#     -WHO guidelines for diabetes management
+#     -Can you recommend some strategies for controlling my diabetes?
+#     -I need to know what to do if my blood sugar gets too high or too low
+#     -I want to know more about the different types of diabetes and how to manage them
+#     -I need to know how to properly take my insulin
+#     -I have diabetes and I need help managing my blood sugar levels
+#     -I'm struggling to stick to my diabetes management plan. Can you offer some tips for staying on track?
+#     -I have diabetes. How can I take care of my feet?
+#     -How can I manage diabetes during times of stress?
+#     -How can I track and interpret my blood sugar and other test results over time to better manage my diabetes?
+#     -How do I manage diabetes during pregnancy? 
+#     -WHO reccommendations on diabetes_management? 
 
-- intent:  diabetes_diet
-  examples: |
-   -What foods should people with diabetes avoid?
-   -Can people with diabetes eat fruits?
-   -Can people with diabetes eat sugary foods?
-   -What are the best foods for people living with diabetes?
-   -Can people with diabetes consume honey?
-   -Can people with diabetes consume carbohydrates?
-   -What foods can I eat if I have diabetes?
-   -What is the best diet for people with diabetes?
-   -What foods should people with diabetes avoid?
-   -Is keto diet the best diet for people with diabetes?
-   -What foods can quickly reduce blood sugar levels?
-   -What food makes diabetes worse?
-   -Which fruits should a person diabetes avoid?
-   -What drinks should people with diabetes avoid?
-   -What drinks should people with diabetes take?
-   -Can people with diabetes take alcohol?
-   -What is the amount of calories are people with diabetes supposed to consume?
-   -Can cholestrol cause diabetes?
-   -WHO reccomendations on diabetes diet?
-   -What are the nutritional requirements of people with diabetes?
-   -What nutrition should people with diabetes follow
+# - intent:  diabetes_diet
+#   examples: |
+#    -What foods should people with diabetes avoid?
+#    -Can people with diabetes eat fruits?
+#    -Can people with diabetes eat sugary foods?
+#    -What are the best foods for people living with diabetes?
+#    -Can people with diabetes consume honey?
+#    -Can people with diabetes consume carbohydrates?
+#    -What foods can I eat if I have diabetes?
+#    -What is the best diet for people with diabetes?
+#    -What foods should people with diabetes avoid?
+#    -Is keto diet the best diet for people with diabetes?
+#    -What foods can quickly reduce blood sugar levels?
+#    -What food makes diabetes worse?
+#    -Which fruits should a person diabetes avoid?
+#    -What drinks should people with diabetes avoid?
+#    -What drinks should people with diabetes take?
+#    -Can people with diabetes take alcohol?
+#    -What is the amount of calories are people with diabetes supposed to consume?
+#    -Can cholestrol cause diabetes?
+#    -WHO reccomendations on diabetes diet?
+#    -What are the nutritional requirements of people with diabetes?
+#    -What nutrition should people with diabetes follow
 
-- intent:  type1_diabetes_type
-  examples:  |
-   - type 1 
-   - diabetes type 1
-   - insulin dependent
-   - juvenile diabetes
-   - early-onset diabetes
-   - juvenile-onset diabetes
-   - brittle diabetes
+# - intent:  type1_diabetes_type
+#   examples:  |
+#    - type 1 
+#    - diabetes type 1
+#    - insulin dependent
+#    - juvenile diabetes
+#    - early-onset diabetes
+#    - juvenile-onset diabetes
+#    - brittle diabetes
 
-- intent:  type2_diabetes_type
-  examples:  |
-    - type 2  
-    - diabetes type 2
-    - maturity-onset diabetes
-    - late-onset diabetes
-    - insulin resistance diabetes
-    - adult-onset diabetes
+# - intent:  type2_diabetes_type
+#   examples:  |
+#     - type 2  
+#     - diabetes type 2
+#     - maturity-onset diabetes
+#     - late-onset diabetes
+#     - insulin resistance diabetes
+#     - adult-onset diabetes
   
-- intent: gestational_diabetes_type
-  examples:  | 
-    - gestational_diabetes
-    - pregnancy diabetes
-    - post partum diabetes
-    - post natal pregnancy
+# - intent: gestational_diabetes_type
+#   examples:  | 
+#     - gestational_diabetes
+#     - pregnancy diabetes
+#     - post partum diabetes
+#     - post natal pregnancy
 
-- intent: affirm
-  examples:  |
-    - yes
-    - sure
-    - correct
-    - yes i did
-    - i sure did
-    - you bet
-    - fine
-    - more or less
-    - pretty good
-    - of course
-    - i sure did 
-    - yes i do
-    - i do
+# - intent: affirm
+#   examples:  |
+#     - yes
+#     - sure
+#     - correct
+#     - yes i did
+#     - i sure did
+#     - you bet
+#     - fine
+#     - more or less
+#     - pretty good
+#     - of course
+#     - i sure did 
+#     - yes i do
+#     - i do
 
-- intent: deny
-  examples: |
-    - no
-    - i did not
-    - no i did not
-    - never
-    - i dont think so
-    - no way
-    - not really
-    - none
-    - absolutely not
-    - not thank you
-    - nope
-    - not great
-    - could have been better
+# - intent: deny
+#   examples: |
+#     - no
+#     - i did not
+#     - no i did not
+#     - never
+#     - i dont think so
+#     - no way
+#     - not really
+#     - none
+#     - absolutely not
+#     - not thank you
+#     - nope
+#     - not great
+#     - could have been better
 
-- intent: inform
-  examples:  |
-   - [insulin dependent](typez)
-   - [juvenile diabetes](typez)
-   - [early-onset diabetes](typez)
-   - [juvenile-onset diabetes](typez)
-   - [brittle diabetes](typez)
-   - [type 1 diabetes](typez)
-   - [non-insulin-dependent diabetes](typez)
-   - [maturity-onset diabetes](typez)
-   - [late-onset diabetes](typez)
-   - [chronic diabetes](typez)
-   - [insulin resistance diabetes](typez)
-   - [adult-onset diabetes](typez)
-   - [type 2 diabetes](typez)
-   - [type I diabetes](typez)
-   - [type 2 diabetes](typez)
-   - [type 1](typez)
-   - [type 2](typez)
-   - [gestational_diabetes](typez)
+# - intent: inform
+#   examples:  |
+#    - [insulin dependent](typez)
+#    - [juvenile diabetes](typez)
+#    - [early-onset diabetes](typez)
+#    - [juvenile-onset diabetes](typez)
+#    - [brittle diabetes](typez)
+#    - [type 1 diabetes](typez)
+#    - [non-insulin-dependent diabetes](typez)
+#    - [maturity-onset diabetes](typez)
+#    - [late-onset diabetes](typez)
+#    - [chronic diabetes](typez)
+#    - [insulin resistance diabetes](typez)
+#    - [adult-onset diabetes](typez)
+#    - [type 2 diabetes](typez)
+#    - [type I diabetes](typez)
+#    - [type 2 diabetes](typez)
+#    - [type 1](typez)
+#    - [type 2](typez)
+#    - [gestational_diabetes](typez)
 
-- intent: bot_challenge
-  examples:  |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+# - intent: bot_challenge
+#   examples:  |
+#     - are you a bot?
+#     - are you a human?
+#     - am I talking to a bot?
+#     - am I talking to a human?
