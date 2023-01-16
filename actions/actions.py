@@ -12,21 +12,19 @@ class GPT3ResponseAction(Action):
         self.model_engine = "text-davinci-003"
     def name(self):
         return "action_gpt3_response"
-    # async def run(self, dispatcher, tracker, domain):
-    #     prompt = tracker.latest_message['text']
-    #     response = self.gpt3(prompt)
-    #     dispatcher.utter_message(text=response)
+    
     async def run(self, dispatcher, tracker, domain):
         # Get the user's message
         message = tracker.latest_message['text']
         # Check if the message contains certain keywords or phrases related to diabetes
-        diabetes_keywords = ["hi", "diabetes", "blood sugar", "insulin", "glucose", "diet", "nutrition", "medicine", "mellitus", "HbA1c", "hypoglycemia", "hyperglycemia", "goodbye"]
+        diabetes_keywords = ["diabetes", "blood sugar", "meal plan", "diagnosis", "insulin", "glucose", "diet", "nutrition", "medicine", "mellitus", "HbA1c", "hypoglycemia", "hyperglycemia", "goodbye"]
         if any(keyword in message.lower() for keyword in diabetes_keywords):
             prompt = "question about diabetes: " + message
             response = self.gpt3(prompt)
             dispatcher.utter_message(text=response)
         else:
             dispatcher.utter_message(text="Sorry, I am not able to answer that question.")
+
     def gpt3(self, prompt):
         completion = openai.Completion.create(
             engine=self.model_engine,

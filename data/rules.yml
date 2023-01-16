@@ -5,5 +5,16 @@ rules:
  - rule: Chatgpt
    steps:
    - intent: greet
-   - action: action_gpt3_response
+   - action: utter_greetings
+
+ - rule: i am a bot
+   steps:
+   - intent: bot_challenge
+   - action: utter_iamabot
+
+ - rule: say goodbye
+   steps:
+   - intent: goodbye
+   - action: utter_goodbye
+
 

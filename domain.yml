@@ -2,30 +2,50 @@ version: "3.1"
 
 intents:
 - greet
-# - diabetes_meaning
-# - symptoms_of_diabetes
-# - diabetes_risks
-# - diabetes_contributing_factors
-# - diabetes_types
-# - diabetes_diagnosis
-# - diabetes_treatment
-# - diabetes_prevention
-# - diabetes_management
-# - diabetes_diet
-# - type1_diabetes_type
-# - type2_diabetes_type
-# - affirm
-# - deny
-# - gestational_diabetes_type
-# - bot_challenge
-# - goodbye
+- diabetes_meaning
+- diabetes_symptoms
+- diabetes_risks
+- diabetes_contributing_factors
+- diabetes_types
+- diabetes_diagnosis
+- diabetes_treatment
+- diabetes_prevention
+- diabetes_management
+- diabetes_diet
+- bot_challenge
+- goodbye
+- blood_glucose_levels
+- prediabetes
+- insulin_meaning
+- types_insulin
+- use_of_insulin
+- side_effects_of_insulin
+- miss_dose
+- diabetes_pregnancy_risk
+- pregnancy_diet_exercise
+- delivery&post-pregnancy_care
+- managing_during_pregnancy
+- inform
 
-# entities:
-# - typez
+entities:
+ - blood_sugar_level
+ - health_condition
+ - diet
+ - sleep
+ - symptoms
+ - medication
+ - diabetes_checkup
+ - physical_activity
 
 responses:
  utter_greetings:
  - text: "Welcome! I'm Dalia, a diabetes conversational bot. Ask me any questions about diabetes"
+
+ utter_goodbye:
+ - text: "Goodbye!"
+
+ utter_iamabot:
+  - text: "I'm Dalia, a bot, powered by Rasa." 
 
 #  utter_diabetes_meaning:
 #  - text: "Diabetes is a chronic condition that occurs when the body is unable to properly use and store glucose (a type of sugar). Glucose is the body's main source of energy, and it comes from the foods we eat. In people with diabetes, the body either does not produce enough insulin (a hormone that regulates blood sugar) or the cells do not respond properly to insulin. As a result, glucose builds up in the blood instead of being used for energy. There are three main types of diabetes: Type 1 diabetes; this type of diabetes is an autoimmune disease, in which the body's immune system attacks and destroys the cells in the pancreas that produce insulin. As a result, people with type 1 diabetes need to take insulin injections to control their blood sugar levels"
@@ -69,8 +89,6 @@ responses:
 #  utter_goodbye:
 #   - text: "Bye."
 
-#  utter_iamabot:
-#   - text: "I am a bot, powered by Rasa." 
 
 
 

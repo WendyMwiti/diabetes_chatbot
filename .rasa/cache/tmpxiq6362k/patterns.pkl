@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cont_factors",
+    "pattern": "(\\bobesity\\b|\\bage\\b|\\bfamily\\ history\\b|\\bblood\\ pressure\\b|\\bpregnacy\\b|\\bsmoking\\b)"
+  },
+  {
+    "name": "dietz",
+    "pattern": "(\\bmilk\\b|\\bwater\\b|\\bfruits\\b|\\bfood\\b|\\bapple\\b|\\bhoney\\b|\\bketo\\b|\\brice\\b|\\bcarbs\\b|\\bchips\\b|\\bsugar\\b|\\bbaked\\b|\\bsnacks\\b|\\balcohol\\b)"
+  },
+  {
+    "name": "riskz",
+    "pattern": "(\\bkidney\\ problems\\b|\\bheart\\ problems\\b|\\beye\\ problems\\b|\\bblindness\\b)"
+  },
+  {
+    "name": "side_effectz",
+    "pattern": "(\\bweight\\ gain\\b|\\bskin\\ irritation\\b|\\bblood\\ pressure\\b|\\bpotassium\\ level\\b|\\ballergic\\ reaction\\b|\\ballergy\\b)"
+  },
+  {
+    "name": "signz",
+    "pattern": "(\\bhunger\\b|\\bfainting\\b)"
+  },
+  {
+    "name": "type_insulin",
+    "pattern": "(\\bfast\\ acting\\b|\\bintermediate\\ acting\\b|\\blong\\ acting\\b)"
+  }
+]
