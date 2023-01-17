@@ -12,6 +12,8 @@ Sophia Mbataru
 
 Brian Magembe
 
+John Mungai
+
 ## Description
 Welcome to the Diabetes Chatbot! This chatbot is designed to provide information and support to individuals with diabetes or those interested in learning more about diabetes.
 
